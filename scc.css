@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #ff66b2;
+    color: white;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #ff66b2;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 40px 20px;
+}
+
+.education-item, .experience-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.education-item h3, .experience-item h3 {
+    color: #ff66b2;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    background: #ff66b2;
+    color: white;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff66b2;
+    color: white;
+    margin-top: 40px;
+}
